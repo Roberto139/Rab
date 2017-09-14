@@ -1,0 +1,51 @@
+Entrada : 
+Conta dividida para x pessoa y pessoa.... n pessoa
+
+X gastou
+Y gastou
+Z gastou
+
+Itens que somente 1 quer?
+(s/n)
+
+X pagou, somente Y divide :
+
+
+X pagou, somente Z divide:
+
+Y pagou ,somente...
+
+Itens que 2 querem
+
+....
+
+
+Ana cred 20
+Beatriz cred 60
+Carla deb 80
+
+
+
+Ana 400
+Beatriz 300
+Carla 500
+Daniela 400
+
+
+1 pessoa quer
+tudo 0
+2 pessoas 
+tudo 0
+
+3 pessoa querem
+
+Ana pagou 100 betriz carla ana
+Beatiriz pagou 100 para ana beatriz carla
+resto 0
+
+
+
+Ana debito 16,67
+Beatriz debito 116,67
+Carla debito 83,33
+DAniela tem credito 50,00
