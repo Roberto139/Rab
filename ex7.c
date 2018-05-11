@@ -258,8 +258,10 @@ void exN_init(void)
     return;
 }
 
+//Funcao para organizar e separar os conjuntos
 void AFND_AFD(quint_t *quint)
 {
+    // *quinta cabeça da lista de struct quint_t (quintupla)
     listaD_t *busca= NULL;
     listaE_t *
 
@@ -274,9 +276,10 @@ void AFND_AFD(quint_t *quint)
             }while(busca!= NULL);
         }
 }
-
+//funcao  para buscar um elemento lido 
 listaD *busca_ef(listaD *list, int ei, char lei)
 {
+    // ei = elemento inicial ,lei = elementa lido, *list = cabeca
     while(list!= NULL)
     {   
         if(list->ei == ei && lista->lei == lei)
@@ -288,8 +291,9 @@ listaD *busca_ef(listaD *list, int ei, char lei)
 
 void inserir_listaE(listaE_t **list, int info)
 {
+    // inserir elemento info
     listaE_t *pl= *list, *plant= NULL;
-
+// essa aq cleo q fez , nem lembro oq fz direito
     while(pl!= NULL)
     {
         plant= pl;
@@ -308,6 +312,7 @@ void inserir_listaE(listaE_t **list, int info)
     return;
 }
 
+//insere triplas do delta
 void inserir_listaD(listaD_t **list, listaD_t info)
 {
     listaD_t *pl= *list, *plant= NULL;
@@ -331,7 +336,7 @@ void inserir_listaD(listaD_t **list, listaD_t info)
 
     return;
 }
-
+//insere na lista q liga as listas
 void inserir_llista(llista_t **list, listaE_t *info)
 {
     llista_t *pl= *list, *plant= NULL;
